@@ -5,7 +5,7 @@ const app = express();
 //get - post - put - delete
 app.get("/", (req, res) => {
     //here we do not write res.end 
-    res.send("this is all about this is home url");
+    res.send("this is all about this is home urla agian changeing something to get info about changes");
 });
 
 app.get("/another", (req, res) => {
